@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("background.jpeg");
+}
+
+header {
+    background-color: #cf7e8c;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    border: none;
+    background-color: #cf7e8c;
+    color: white;
+    font-size: 2em;
+    margin: 0 20px 0 20px;
+}
+
+#content {
+    width: 80%;
+    margin: auto;
+    background-color: #cf7e8c;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 40px;
+    height: 80vh;
+    overflow: auto;
+    font-size: 1.5em
+}
